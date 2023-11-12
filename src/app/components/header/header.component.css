@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1105px){
+    .toolbar__link {
+        margin: 13px 31px 10px 0;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .toolbar {
+        padding-top: 37px;
+        margin-bottom: 25px;
+    }
+}
+@media only screen and (max-width: 890px){
+    .toolbar__nav  {
+        position: fixed;
+        flex-direction: column;
+        background-color: var(--primary-blue-50);
+        padding: 106px 54px 0;
+        top: 0;
+        right: -450px;
+        width: 320px;
+        height: 100%;
+        z-index: 15;
+    }
+    .toolbar__link {
+        color: white;
+    }
+    .toolbar__link:hover {
+        text-shadow: 3px 4px 8px #f5f5f570;
+    }
+    .spanRotate1 {
+        transform: rotate(45deg);
+    }
+    .spanRotate2 {
+        transform: rotate(-45deg);
+        margin-top: -3px !important;
+    }
+    .menuClass {
+        right: 0;
+        transition: 0.4s ease-in-out;
+    }
+    .menu-class {
+        transition: 0.4s ease-in-out;
+    }
+    .iconPadding {
+        padding-top: 14px;
+    }
+
+
+
+
+    .menu-icon {
+        display: inline-block;
+        position: relative;
+        right: 0;
+        top: 9px;
+        margin-left: 15px;
+        z-index: 17;
+    }
+    .menu-icon span {
+        width: 40px;
+        height: 5px; 
+        background: var(--primary-blue-90);
+        display: block;
+    }
+    .menu-icon span:nth-child(2){
+        margin: 8px 0;
+    }
+}
+@media only screen and (max-width: 470px){
+    .toolbar__img {
+        width: 95px;
+    }
+    .toolbar__img img {
+        width: 100%;
+    }
+    button {
+        padding: 11px 21px;
+    }
+    .menu-icon {
+        margin-top: -3px;
+    }
+}

@@ -1,0 +1,29 @@
+button {
+    padding: 12px 28px;
+    background: #9f9e9e87;
+    border: none;
+    border-radius: 17px;
+    margin: auto;
+    display: block;
+}
+form {
+    width: 100%;
+    background-color: white;
+    padding: 20px 45px;
+    border-radius: 18px;
+    box-shadow: 5px 3px 11px 4px gray, -4px -4px 20px 0px #5362b5e0;
+    margin-top: 15px;
+}
+.close-button {
+    padding: 5px 8px;
+    margin-bottom: 10px;
+}
+img {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.mat-mdc-form-field {
+    width: 100%;
+} 

@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1200px){
+    .discuss__text {
+        font-size: 26px;
+        margin-top: 21px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .brand__description {
+        margin-top: 8px;
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .contact {
+        font-size: 14px;
+    }
+    .discuss__text {
+        font-size: 21px;
+        margin-top: 19px;
+    }
+    .news {
+        width: 50%;
+    }
+    .follow__img-cont a {
+        margin-right: 17px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .footer__container .container {
+        display: block;
+    }
+    .discuss__cont {
+        display: block;
+    }
+    .brand {
+        width: 100%;
+    }
+    .news {
+        width: 90%;
+    }
+    .discuss__text {
+        width: 74%;
+    }
+    .contact {
+        width: 100%;
+    }
+    .contact__text {
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .discuss__text {
+        width: 92%;
+        font-size: 18px;
+    }
+}

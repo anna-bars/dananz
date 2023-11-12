@@ -1,0 +1,32 @@
+<header>
+    <app-header-cont [headerData]="dataHeader"></app-header-cont>
+</header>
+<!-- achievement -->
+<section class="achievement">
+    <div class="container-without-flex">
+        <h2 class="section__title">ACHIEVEMENT</h2>
+    </div>
+    <div *ngFor="let item of serviceData">
+        <app-service [data]="item"></app-service>
+    </div>
+</section>
+<!-- product -->
+<section class="product">
+    <div class="container-without-flex">
+        <h2 class="section__title">PRODUCT</h2>
+    </div>
+    <div class="container product__cont">
+        <h2 class="product__title">
+            Choose your product themes.
+        </h2>
+        <p class="product__text">
+            Find the theme you want. If our choice of theme is not what you want, 
+            you can customize it as you want.
+        </p>
+    </div>
+    <div class="container-without-flex">
+        <div *ngFor="let item of themeData">
+            <app-product-theme [themeData]="item"></app-product-theme>
+        </div>
+    </div>
+</section>

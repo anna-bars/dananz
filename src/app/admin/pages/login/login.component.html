@@ -1,0 +1,30 @@
+<div class="cont">
+    <form [formGroup]="form" (ngSubmit)="send()">
+        <mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email" name="email" #email>
+        </mat-form-field><br>
+        <span *ngIf="form.get('email')?.hasError('required') &&
+        (form.get('email')?.touched || form.get('email')?.dirty)">Email is required</span>
+        <span *ngIf="form.get('email')?.hasError('minlength') &&
+        (form.get('email')?.touched || form.get('email')?.dirty)">The minimum length is 7</span>
+        <span *ngIf="form.get('email')?.hasError('maxlength') &&
+        (form.get('email')?.touched || form.get('email')?.dirty)">The maximum length is 23</span>
+        <span *ngIf="form.get('email')?.hasError('pattern') &&
+        (form.get('email')?.touched || form.get('email')?.dirty)">The email is incorrect</span>
+        <mat-form-field class="example-full-width">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" formControlName="password" name="password" #password>
+        </mat-form-field><br>
+        <span *ngIf="form.get('password')?.hasError('required') &&
+        (form.get('email')?.touched || form.get('email')?.dirty)">Password is required</span>
+        <span *ngIf="form.get('password')?.hasError('minlength') &&
+        (form.get('email')?.touched || form.get('email')?.dirty)">The minimum length is 4</span>
+        <span *ngIf="form.get('password')?.hasError('maxlength') &&
+        (form.get('email')?.touched || form.get('email')?.dirty)">The maximum length is 15</span>
+        <span *ngIf="form.get('password')?.hasError('pattern') &&
+        (form.get('email')?.touched || form.get('email')?.dirty)">The password is incorrect</span>
+        <button mat-stroked-button color="primary" [disabled]="form.invalid">Log in</button>
+    </form>
+     
+</div>

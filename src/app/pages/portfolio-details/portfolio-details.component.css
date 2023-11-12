@@ -1,0 +1,107 @@
+.project__title, .design__title {
+    color: var(--grayscale-50);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    margin-bottom: 24px;
+}
+.project__text {
+    color: var(--grayscale-10);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    margin-bottom: 60px;
+}
+.project__date, .project__subtitle {
+    color: var(--grayscale-10);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}
+.design__text1, .design__text2 {
+    color: var(--grayscale-10);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;  
+}
+.design__text1 {
+    margin-bottom: 30px;
+}
+.project, .design {
+    width: 48.66%;
+}
+.project__cont {
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+}
+.info__cont {
+    margin-bottom: 82px;
+}
+img {
+    width: 100%;
+}
+.img__elem1, .img__elem2 {
+    width: 48.66%;
+}
+.img__elem {
+    width: 100;
+}
+.img .container {
+    margin-bottom: 32px;
+}
+@media only screen and (max-width: 1150px){
+    header {
+        margin-bottom: 64px;
+    }
+    .project__title, .design__title {
+        font-size: 19px;
+        margin-bottom: 7px;
+    }
+    .project__text {
+        font-size: 14px;
+        margin-bottom: 26px;
+    }
+    .project__date, .project__subtitle {
+        font-size: 12px;
+    }
+    .design__text1 {
+        margin-bottom: 20px;
+    }
+    .design__text1, .design__text2 {
+        font-size: 14px;
+    }
+    .img .container {
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 720px){
+    .info__cont {
+        margin-bottom: 38px;
+        display: block;
+    }
+    .project, .design {
+        width: 91.66%;
+        margin-bottom: 25px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .project__text {
+        font-size: 11px;
+        margin-bottom: 16px;
+    }
+    .design__text1 {
+        font-size: 11px;
+    }
+    header {
+        margin-bottom: 28px;
+    }
+}

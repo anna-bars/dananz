@@ -1,0 +1,26 @@
+<header>
+    <app-header-cont [headerData]="dataHeader"></app-header-cont>
+</header>
+<section class="designer">
+    <div class="container-without-flex">
+        <h2 class="section__title">Designer</h2>
+        <h3 class="designer__title">Creative Person</h3>
+        <p class="designer__text">
+            Customize your interior design into a dream place with the 
+            best designers and quality furniture.
+             We try our best to fulfill your expectations.
+        </p>
+    </div>
+    <div class="container auth">
+        <div *ngFor="let item of authorData" class="author__cont">
+            <app-author [data]="item"></app-author>
+        </div>
+    </div>
+    <div class="container author__container auth">
+        <div *ngFor="let item of authorData2" class="author__cont">
+            <app-author [data]="item"></app-author>
+        </div>
+    </div>
+</section>
+<!-- service -->
+<app-serviice></app-serviice>

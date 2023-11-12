@@ -1,0 +1,32 @@
+<table mat-table [dataSource]="array">
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef>Id</th>
+      <td mat-cell *matCellDef="let element">{{element.id}}</td>
+    </ng-container>
+    <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef>Name</th>
+      <td mat-cell *matCellDef="let element">{{element.name}}</td>
+    </ng-container> 
+    <ng-container matColumnDef="text">
+        <th mat-header-cell *matHeaderCellDef>Text</th>
+        <td mat-cell *matCellDef="let element">{{element.text}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="edit">
+        <th mat-header-cell *matHeaderCellDef>Edit</th>
+        <td mat-cell *matCellDef="let element">
+            <button (click)="editElement(element)"><mat-icon>edit</mat-icon></button>
+        </td>
+    </ng-container>
+    <ng-container matColumnDef="delete">
+        <th mat-header-cell *matHeaderCellDef>Delete</th>
+        <td mat-cell *matCellDef="let element">
+            <button (click)="delete(element.id)"><mat-icon>delete</mat-icon></button>
+        </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<button class="addButton" (click)="add()">+</button>
+<app-loac-form [data]="elem" *ngIf="showForm" (sendShow)="closeForm($event)" [sendingData]="value"></app-loac-form>

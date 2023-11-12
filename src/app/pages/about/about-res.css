@@ -1,0 +1,123 @@
+@media only screen and (max-width: 1320px){
+    .achievement__img img {
+        width: 100%;
+        height: fit-content;
+        margin-top: 70px;
+    }
+    .inform_block {
+        width: 21%;
+    }
+    .inform_item {
+        margin-bottom: 13px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .achievement .container {
+        display: block;
+    }
+    .inform_block {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        padding: 35px;
+    }
+    .achievement__img {
+        width: 100%;
+    }
+    .service__text {
+        width: 76.25%;
+    }
+    .section__subtitle {
+        width: 76.5%;
+        font-size: 34px;
+        margin: 20px 0 0;
+    }
+}
+@media only screen and (max-width: 910px){
+    .header__text {
+        width: 74.5%;
+        font-size: 17px;
+        margin-bottom: 63px;
+    }
+    .header__title {
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+    header {
+        margin-bottom: 70px;
+    }
+    .section__subtitle {
+        width: 67.5%;
+        font-size: 21px;
+        margin: 16px 0 0;
+    }
+    .achievement__img img {
+        margin-top: 25px;
+    }
+    .inform_block {
+        width: 100%;
+        padding: 25px;
+        margin-top: -10px;
+    }
+    .inform_number {
+        font-size: 33px;
+    }
+    .inform_text {
+        font-size: 14px;
+    }
+    .achievement {
+        margin-bottom: 70px;
+    }
+    .service__subtitle {
+        font-size: 28px;
+        margin: 8px 0 12px;
+    }
+    .service__text {
+        width: 85.25%;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .section__title::after {
+        width: 50%;
+    }
+    header {
+        margin-bottom: 50px;
+    }
+    .section__subtitle {
+        width: 80.5%;
+    }
+    .inform_number  {
+        font-size: 29px;
+    }
+    .choose-us__elem {
+        width: 72%;
+    }
+    .service {
+        margin-bottom: 55px;
+    }
+    
+}
+@media only screen and (max-width: 420px){
+    .choose-us__elem {
+        width: 82%;
+    }
+    .inform_block {
+        padding: 10px;
+    }
+    .inform_number {
+        font-size: 22px;
+    }
+    .inform_text {
+        font-size: 10px;
+    }
+    .header__text {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+

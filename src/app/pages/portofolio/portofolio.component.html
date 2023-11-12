@@ -1,0 +1,12 @@
+<header>
+    <app-header-cont [headerData]="dataHeader"></app-header-cont>
+</header>
+<section class="portfolio">
+    <div class="container-without-flex">
+        <h2 class="section__title">Portfolio</h2>
+    </div>
+    <div *ngFor="let item of aboutBlock" class="block">
+        <app-portfolio-block [data]="item"></app-portfolio-block>
+    </div>
+</section>
+<app-serviice></app-serviice>

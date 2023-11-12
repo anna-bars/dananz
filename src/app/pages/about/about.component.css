@@ -1,0 +1,41 @@
+header {
+    margin-bottom: 100px;
+}
+/* achievement */
+.section__subtitle {
+    width: 61.5%;
+    color: var(--grayscale-black);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    margin: 20px 0 56px;
+}
+.achievement__img {
+    width: 73.58%;
+}
+.achievement__img img {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+.achievement {
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 850px){
+    .service .container {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .choose-us__elem {
+        margin: 0 25px 25px 0;
+        width: 38%;
+    }
+}
+@media only screen and (max-width: 670px){
+    .choose-us__elem{
+        margin: 0 7px 25px 0;
+        width: 41%;
+    }
+}

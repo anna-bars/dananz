@@ -1,0 +1,50 @@
+<mat-sidenav-container>
+    <mat-sidenav opened mode="side">
+      <mat-list>
+        <mat-list-item>
+          <a [routerLink]="'/admin/account'">
+          <mat-icon>dashboard</mat-icon>
+          <p>Dashboard</p>
+        </a></mat-list-item>
+        <mat-list-item> 
+          <a [routerLink]="'achievement'">
+          <mat-icon>source</mat-icon>
+          <p>Achievement</p></a>
+        </mat-list-item>
+        <mat-list-item>
+          <a [routerLink]="'choose'">
+          <mat-icon>help</mat-icon>
+          <p>Choose us</p></a>
+        </mat-list-item>
+        <mat-list-item>
+          <a [routerLink]="'author'">
+          <mat-icon>groups</mat-icon>
+          <p>Authors</p></a>
+        </mat-list-item>
+        <mat-list-item><a [routerLink]="'product'">
+          <mat-icon>bento</mat-icon>
+          <p>Product</p></a>
+        </mat-list-item>
+        <mat-list-item>
+          <a [routerLink]="'contact'"> 
+          <mat-icon>contacts</mat-icon>
+          <p>Contact</p></a>
+        </mat-list-item>
+        <mat-list-item>
+          <a [routerLink]="'location'"> 
+          <mat-icon>place</mat-icon>
+          <p>Location</p></a>
+        </mat-list-item>
+      </mat-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <mat-toolbar color="primary">
+        <span>Finsweet</span>
+        <span class="example-spacer"></span>
+        <button mat-raised-button (click)="logOut()">Log Out</button>
+      </mat-toolbar>
+      <div class="routerCont">
+        <router-outlet></router-outlet>
+      </div>
+     </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,17 @@
+.section__title {
+    margin-bottom: 40px;
+}
+.block {
+    margin-bottom: 40px;
+}
+.portfolio {
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 800px){
+    .section__title::after {
+        width: 50%;
+    }
+    header, .portfolio {
+        margin-bottom: 40px;
+    }
+}

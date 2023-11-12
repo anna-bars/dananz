@@ -1,0 +1,106 @@
+<header>
+    <div class="contact__container">
+        <h1 class="contact__title">Contact Us</h1>
+        <p class="contact__text">
+            It is a long established fact that a reader will be distracted
+             by the readable content of a page when looking at its layout.
+        </p>
+    </div>
+    <div class="contact__container">
+        <form class="contact__form" [formGroup]="form" >
+            <!-- (ngSubmit)="sendMessage(phoneSelect)" -->
+            <div class="input__cont">
+                <label>First Name<br>
+                    <input type="text" placeholder="First Name" formControlName="f_name">
+                </label>
+                <label>Last Name<br>
+                    <input type="text" placeholder="Last Name" formControlName="l_name">
+                </label>
+            </div>
+
+            <span *ngIf="form.get('f_name')?.hasError('required') &&
+            (form.get('f_name')?.touched || form.get('f_name')?.dirty)">
+            First Name is required.
+            </span>
+            <span *ngIf="form.get('l_name')?.hasError('required') &&
+            (form.get('l_name')?.touched || form.get('l_name')?.dirty)">
+            Last Name is required.
+            </span>
+
+            <label>Email<br>
+                <input type="text" placeholder="Email" formControlName="email">
+            </label>
+            <span *ngIf="form.get('email')?.hasError('required') &&
+            (form.get('email')?.touched || form.get('email')?.dirty)">
+                Email is required.
+            </span>
+            <label>Phone Number
+                <div class="phone">
+                    <select name="phone" #phoneSelect>
+                        <option value="us">US</option>
+                        <option value="ru">RU</option>
+                        <option value="am">AM</option>
+                    </select>
+                    <input type="text" placeholder="Phone Number" class="phone__input" formControlName="tel">
+                </div>
+            </label>
+            <span *ngIf="form.get('tel')?.hasError('required') &&
+            (form.get('tel')?.touched || form.get('tel')?.dirty)">
+                Phone number is required.
+            </span>
+            <span *ngIf="form.get('tel')?.hasError('minlength') &&
+            (form.get('tel')?.touched || form.get('tel')?.dirty)">
+                Phone number need to contain at least 4 symbols.
+            </span>
+            <span *ngIf="form.get('tel')?.hasError('maxlength') &&
+            (form.get('tel')?.touched || form.get('tel')?.dirty)">
+                The phone number must contain  maximum  13 characters.
+            </span>
+            <label>
+                Message<br>
+                <textarea name="message" placeholder="Your Message" formControlName="message"></textarea>
+            </label>
+            <span *ngIf="form.get('message')?.hasError('required') &&
+            (form.get('message')?.touched || form.get('message')?.dirty)">
+            Message is required.
+            </span>
+            <button [disabled]="form.invalid" (click)="sendMessage(phoneSelect)">Send Message</button>
+        </form>
+    </div>
+</header>
+<section class="loaction">
+    <div class="container-without-flex">
+        <h2  class="section__title">Loaction</h2>
+    </div>
+    <div class="container loaction__contt">
+        <div class="location__elem1">
+            <h2 class="location__title">Visit Our Stores</h2>
+            <p class="location__text">Find us at these locations.</p>
+            <h2 class="location__email__title">Email</h2>
+            <p class="location__email">dananz@gmail.com</p>
+            <h2 class="location__phone__title">Phone</h2>
+            <p class="location__phone">+62 815 002 1000</p>
+        </div>
+        <div class="location__elem2">
+            <div class="cont">
+                <div *ngFor="let item of locationData1">
+                    <h2 class="store__name">{{item.name}}</h2>
+                    <p class="store__text">{{item.text}}</p>
+                </div>
+            </div>
+            <div class="cont">
+                <div *ngFor="let item of locationData2">
+                    <h2 class="store__name">{{item.name}}</h2>
+                    <p class="store__text">{{item.text}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cont3" *ngIf="showCont">
+        <div *ngFor="let item of locationData3">
+            <h2 class="store__name">{{item.name}}</h2>
+            <p class="store__text">{{item.text}}</p>
+        </div>
+    </div>
+
+</section>

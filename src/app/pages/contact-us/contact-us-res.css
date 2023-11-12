@@ -1,0 +1,127 @@
+@media only screen and (max-width: 1200px){
+    .location__title {
+        font-size: 24px;
+    }
+    .location__text {
+        font-size: 16px;
+        margin: 11px 0 16px;
+    }
+    .location__email__title, .location__phone__title {
+        font-size: 19px;
+    }
+    .location__email {
+        font-size: 16px;
+        margin: 8px 0 13px;
+    }
+    .container {
+        width: 88.33%;
+    }
+    .store__name {
+        margin-bottom: 14px;
+        font-size: 22px;
+    }
+    .store__text {
+        margin-bottom: 41px;
+        font-size: 16px;
+    }
+    .contact__text {
+        width: 68.16%;
+        padding: 16px 0 42px;
+    }
+    .contact__title {
+        font-size: 48px;
+    }
+    .contact__container {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .location__elem2 {
+        width: 66%;
+    }
+    .store__text {
+        margin-bottom: 28px;
+        font-size: 14px;
+    }
+    .section__title::after {
+        width: 326px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .contact__title {
+        font-size: 35px;
+    }
+    .contact__text {
+        width: 68.16%;
+        padding: 9px 0 26px;
+        font-size: 14px;
+    }
+    header {
+        margin-bottom: 57px;
+    }
+    .loaction__contt {
+        display: block;
+    }
+    .location__elem1 {
+        width: 83%;
+        margin-bottom: 25px;
+    }
+    .location__elem2 {
+        width: 92%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px){
+    .contact__title {
+        font-size: 30px;
+    }
+    .contact__text {
+        width: 92.16%;
+        padding: 9px 0 20px;
+        font-size: 12px;
+    }
+    .input__cont {
+        display: block;
+    }
+    .input__cont label {
+        width: 100%;
+    }  
+    label {
+        font-size: 14px;
+    }
+    input, select {
+        padding: 9px 0 9px 13px;
+    }
+    textarea {
+        height: 98px;
+        padding: 11px 13px;
+        margin-bottom: 5px;
+    }
+    .section__title::after {
+        width: 50%;
+    }
+    .store__text {
+        margin-bottom: 18px;
+        font-size: 11px;
+    }
+    .store__name {
+        margin-bottom: 6px;
+        font-size: 17px;
+    }
+    .location__elem2 {
+        width: 96%;
+    }
+    input::placeholder, textarea::placeholder {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 400px){}
+
+
+
+
+
+
+
+
+

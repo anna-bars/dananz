@@ -1,0 +1,62 @@
+<footer>
+    <div class="dicsuss">
+        <div class="container discuss__cont">
+            <p class="discuss__text">
+                let's discuss making your interior like a dream place!
+            </p>
+            <div class="contact">
+                <div class="contact__text">
+                    Contact us below to work together to build your amazing interior
+                </div>
+                <button class="contact__button">
+                    <a [routerLink]="'contact-us'">Contact Us</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="footer__container">
+        <div class="container">
+            <div class="brand">
+                <img src="assets/img/logo-2.png" alt="logo">
+                <p class="brand__description">
+                    One of the best furniture agency.
+                </p>
+            </div>
+            <div class="news">
+                <form>
+                    <label class="news__text">
+                        Enter  your email to get the laterst news
+                    </label>
+                    <div class="news__input_cont">
+                        <input #email  type="text" class="news__input" placeholder="Email Address">
+                        <button class="contact_arrow" (click)="sendMail(email.value)" type="submit">
+                            <img src="assets/img/footer/vector.png" alt="a">
+                        </button>
+                    </div>
+                </form>
+                <div class="follow">
+                    <div class="empty"></div>
+                    <div class="follow__cont">
+                        <p class="follow__text">Follow us On</p>
+                        <div class="follow__img-cont">
+                            <a href="https://www.facebook.com/">
+                                <img src="assets/img/footer/facebook.png" alt="facebook">
+                            </a>
+                            <a href="https://www.instagram.com/">
+                                <img src="assets/img/footer/instagram.png" alt="instagram">
+                            </a>
+                            <a href="https://www.tiktok.com/">
+                                <img src="assets/img/footer/tiktok.png" alt="tiktok">
+                            </a>
+                            <a href="https://www.youtube.com/" class="follow__link__margin0">
+                                <img src="assets/img/footer/youtube.png" alt="youtube">
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</footer>

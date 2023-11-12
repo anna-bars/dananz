@@ -1,0 +1,25 @@
+form {
+    margin: auto;
+    text-align: center;
+    border: 1px solid #3f51b573;
+    padding: 30px;
+    border-radius: 27px;
+    box-shadow: 6px 4px 8px 2px #3f51b540;
+    width: fit-content;
+}
+span {
+    color: red;
+    display: block;
+    margin-bottom: 7px;
+}
+button { 
+    margin-right: 5px;
+    color: #ffffff;
+}
+.cont {
+    padding: 120px  25px 0;
+}
+.mat-mdc-text-field-wrapper {
+    height: 45px;
+    padding-top: 23px;
+}

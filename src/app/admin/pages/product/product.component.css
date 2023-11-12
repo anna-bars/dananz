@@ -1,0 +1,20 @@
+img {
+    width: 47px;
+    display: block;
+}
+button {
+    padding: 6px 11px;
+    border: none;
+    background: var(--grayscale-lightray);
+    border-radius: 25px;
+}
+.addButton {
+    padding: 7px 12px;
+    font-size: 20px;
+    margin-top: 9px;
+}
+app-product-form {
+    position: absolute;
+    top: 75px;
+    width: 45%;
+}

@@ -1,0 +1,262 @@
+{
+  "chooseUs": [
+    {
+      "id": 1,
+      "img": "/assets/img/about/ellipse.png",
+      "title": "High Quality",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "img": "/assets/img/about/ellipse.png",
+      "title": "Professional Designer",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations. ",
+      "id": 2
+    },
+    {
+      "img": "/assets/img/about/ellipse.png",
+      "title": "The Best Services",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.",
+      "id": 3
+    }
+  ],
+  "choose": [
+    {
+      "id": 1,
+      "title": "Why Choose Us",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    }
+  ],
+  "achievement": [
+    {
+      "img": "/assets/img/services/02.png",
+      "title": "Interior design",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "img": "/assets/img/services/03.png",
+      "title": "Consultant",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "id": 3,
+      "img": "/assets/img/services/04.png",
+      "title": "construction consultant",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    }
+  ],
+  "productTheme": [
+    {
+      "id": 1,
+      "title": "Vintage",
+      "arrow": "/assets/img/home/arrow-right.png",
+      "description": "the use of simple and limited elements to get the best effect or impression."
+    },
+    {
+      "id": 2,
+      "title": "Minimalist",
+      "arrow": "/assets/img/home/arrow-right.png",
+      "description": "the use of simple and limited elements to get the best effect or impression."
+    },
+    {
+      "id": 3,
+      "title": "Modern",
+      "arrow": "/assets/img/home/arrow-right.png",
+      "description": "the use of simple and limited elements to get the best effect or impression."
+    },
+    {
+      "id": 4,
+      "title": "transitional",
+      "arrow": "/assets/img/home/arrow-right.png",
+      "description": "the use of simple and limited elements to get the best effect or impression."
+    }
+  ],
+  "header": [
+    {
+      "id": 1,
+      "title": "About",
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "img": "/assets/img/header/01.png"
+    },
+    {
+      "id": 2,
+      "title": "Services",
+      "text2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "img": "/assets/img/header/02.png"
+    },
+    {
+      "id": 3,
+      "title": "Our Teams",
+      "text2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "img": "/assets/img/header/03.png"
+    },
+    {
+      "id": 4,
+      "title": "Portofolio",
+      "text2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "img": "/assets/img/header/04.png"
+    },
+    {
+      "id": 5,
+      "title": "Minimalist Room",
+      "text2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "img": "/assets/img/header/05.png"
+    }
+  ],
+  "author": [
+    {
+      "img": "/assets/img/authors/author01.png",
+      "name": "Shoo Phar Dhie",
+      "text": "CEO",
+      "id": 1
+    },
+    {
+      "img": "/assets/img/authors/author02.png",
+      "name": "Shoo Phar Dhie",
+      "text": "CEO",
+      "id": 2
+    },
+    {
+      "img": "/assets/img/authors/author03.png",
+      "name": "Shoo Phar Dhie",
+      "text": "CEO",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Shoo Phar Dhie",
+      "text": "CEO",
+      "img": "/assets/img/authors/author04.png"
+    },
+    {
+      "id": 5,
+      "name": "Shoo Phar Dhie",
+      "text": "CEO",
+      "img": "/assets/img/authors/author05.png"
+    },
+    {
+      "id": 6,
+      "name": "Shoo Phar Dhie",
+      "text": "CEO",
+      "img": "/assets/img/authors/author06.png"
+    },
+    {
+      "img": "/assets/img/authors/author07.png",
+      "name": "Shoo Phar Dhie",
+      "text": "CEO",
+      "id": 7
+    },
+    {
+      "img": "/assets/img/authors/author08.png",
+      "name": "Shoo Phar Dhie",
+      "text": "CEO",
+      "id": 8
+    }
+  ],
+  "contact": [
+    {
+      "f_name": "Afgdfgh",
+      "l_name": "HGyghj",
+      "email": "mjkn5j@mail.ru",
+      "tel": "546-546954",
+      "message": "RTDFGCyhjgbhnjmb nmbnjhmb mnb nmvbmn vbmnvbmn",
+      "id": 1,
+      "telTtpe": "ru"
+    }
+  ],
+  "location": [
+    {
+      "id": 1,
+      "name": "Jakarta",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "id": 2,
+      "name": "Surakarta",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "id": 3,
+      "name": "Yogyakarta",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "id": 4,
+      "name": "Bandung",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    }
+  ],
+  "aboutBlock": [
+    {
+      "id": 1,
+      "img": "/assets/img/home/02.png",
+      "authorImg": "/assets/img/home/03.png",
+      "name": "Arga Danaan",
+      "position": "CEO of Dananz",
+      "text": "Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.",
+      "buttonText": "See More",
+      "buttonLink": "about"
+    }
+  ],
+  "portfolioBlock": [
+    {
+      "id": 1,
+      "img": "/assets/img/portfolio/01.png",
+      "authorImg": "/assets/img/home/03.png",
+      "name": "Arga Danaan",
+      "position": "CEO of Dananz",
+      "text": "Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.",
+      "buttonText": "See More",
+      "buttonLink": "about"
+    },
+    {
+      "id": 2,
+      "img": "/assets/img/portfolio/02.png",
+      "authorImg": "/assets/img/home/03.png",
+      "name": "Arga Danaan",
+      "position": "CEO of Dananz",
+      "text": "Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.",
+      "buttonText": "See More",
+      "buttonLink": "about"
+    },
+    {
+      "id": 3,
+      "img": "/assets/img/portfolio/03.png",
+      "authorImg": "/assets/img/home/03.png",
+      "name": "Arga Danaan",
+      "position": "CEO of Dananz",
+      "text": "Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.",
+      "buttonText": "See More",
+      "buttonLink": "about"
+    },
+    {
+      "id": 4,
+      "img": "/assets/img/portfolio/04.png",
+      "authorImg": "/assets/img/home/03.png",
+      "name": "Arga Danaan",
+      "position": "CEO of Dananz",
+      "text": "Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.",
+      "buttonText": "See More",
+      "buttonLink": "about"
+    }
+  ],
+  "mail": [
+    {
+      "id": 1,
+      "mail": "1@gmail.com"
+    },
+    {
+      "id": 2,
+      "mail": "2@mail.r"
+    },
+    {
+      "mail": "3@mail.ru",
+      "id": 3
+    },
+    {
+      "mail": "4@gmail.com",
+      "id": 4
+    }
+  ]
+}

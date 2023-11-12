@@ -1,0 +1,127 @@
+<header>
+    <div class="container header__container">
+        <h1>Design your interor with high quality.</h1>
+        <div class="inf-cont">
+            <div class="inform">
+                <div class="inform_block">
+                    <div class="inform_item">
+                        <p class="inform_number">350+</p>
+                        <p class="inform_text">Project Completed</p>
+                    </div>
+                    <div class="inform_item">
+                        <p class="inform_number">23+</p>
+                        <p class="inform_text">Professional Teams</p>
+                    </div>
+                    <div class="inform_item inform_item__margin0">
+                        <p class="inform_number">15+</p>
+                        <p class="inform_text">Years Experience</p>
+                    </div>
+                </div>
+                <div class="inform_date_cont">
+                    <div class="inform_date">
+                        <p class="date_year">2022</p>
+                        <p class="date_text">ALL RIGHT RESERVED</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</header>
+<!-- about -->
+<section class="about">
+    <div class="container-without-flex">
+        <h2 class="section__title">ABOUT</h2>
+        <h3 class="about__subtitle">
+            “We're one of the best furniture agency. Prioritizing  customers
+             and making purchases easy are the hallmarks of our agency.”
+        </h3>
+    </div>
+    <app-portfolio-block [data]="aboutBlock"></app-portfolio-block>
+</section>
+<!-- service -->
+<section class="service">
+    <div class="container-without-flex service__container">
+        <div class="service__cont">
+            <h2 class="section__title">SERVICE</h2>
+            <h3 class="service__title">attractive furniture with the best quality.</h3>
+            <p class="service__text">
+                Customize your interior design into a dream place with
+                 the best designers and quality furniture. 
+                We try our best to fulfill your expectations.
+            </p>
+            <div class="service__select">
+                <div class="select__cont">
+                    <div class="select__num">01</div>
+                    <div class="select__name">Interior Design</div>
+                </div>
+                <a class="select__arrow" href="#">
+                    <img src="/assets/img/home/arrow-right.png" alt="arow">
+                </a>
+            </div>
+            <div class="service__select">
+                <div class="select__cont">
+                    <div class="select__num">02</div>
+                    <div class="select__name">Consultant</div>
+                </div>
+                <a class="select__arrow" href="#">
+                    <img src="/assets/img/home/arrow-right.png" alt="arow">
+                </a>
+            </div>
+            <div class="service__select">
+                <div class="select__cont">
+                    <div class="select__num">03</div>
+                    <div class="select__name">Construction Consultant</div>
+                </div>
+                <a class="select__arrow" href="#">
+                    <img src="/assets/img/home/arrow-right.png" alt="arow">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- product -->
+<section class="product">
+    <div class="container-without-flex"><h2 class="section__title">PRODUCT</h2></div>
+    <div class="container product__cont">
+        <h2 class="product__title">
+            Choose your product themes.
+        </h2>
+        <p class="product__text">
+            Find the theme you want. If our choice of theme is not what you want, 
+            you can customize it as you want.
+        </p>
+    </div>
+    <div class="container-without-flex">
+        <div *ngFor="let item of themeData">
+            <app-product-theme [themeData]="item"></app-product-theme>
+        </div>
+    </div>
+</section>
+<!-- MATERIAL -->
+<section class="material">
+    <div class="container-without-flex">
+        <h2 class="section__title material__title">MATERIAL</h2>
+    </div>
+    <div class="container">
+        <div class="material__block">
+            <h3 class="mateerial__subtitle">
+                choice of materials for quality furniture.
+            </h3>
+            <p class="material__text">
+                You can custom the material as desired. And our furniture uses the 
+                best materials and selected quality materials.
+            </p>
+            <button class="material__button">
+                <a href="#">See Materials</a>
+            </button>
+        </div>
+        <div class="material__images">
+            <img src="/assets/img/home/05.png" class="material__img1" alt="image">
+            <div class="img__cont">
+                <img src="/assets/img/home/06.png" alt="image" class="material__img2">
+                <img src="/assets/img/home/07.png" alt="image" class="material__img3">
+            </div>
+        </div>
+    </div>
+</section>

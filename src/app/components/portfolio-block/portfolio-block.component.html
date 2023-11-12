@@ -1,0 +1,20 @@
+<div class="container about__cont" #cont>
+    <div class="about__img">
+        <img [src]="data?.img" alt="image">
+    </div>
+    <div class="about__block" #block>
+        <p class="about__text">
+            {{data.text}}
+        </p>
+        <button class="about__button">
+            <a href="#">{{data.buttonText}}</a>
+        </button>
+    </div>
+    <div class="about__author">
+        <img [src]="data.authorImg" alt="author img" class="about__author__img">
+        <div class="about__author__info">
+            <p class="about__author__name">{{data.name}}</p>
+            <p class="about__author__position">{{data.position}}</p>
+        </div>
+    </div>
+</div>

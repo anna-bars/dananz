@@ -1,0 +1,63 @@
+.mat-toolbar-single-row {
+    justify-content: space-between;
+}
+.mat-toolbar-single-row {
+    padding: 0 80px;
+}
+.mat-sidenav {
+    width: 170px;
+    background-color: linear-gradient(45deg, #2f86d38f, transparent, #f0f8ff8f, transparent);
+    border-right: 2px solid rgba(100, 148, 237, 0.793);
+}
+.routerCont {
+    padding: 25px;
+}
+a {
+    background-color: white;
+    display: block;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    width: fit-content;
+    text-decoration: none;
+    background-color: #3f51b50d;
+}
+a:hover {
+    border: 2px dotted #3f51b5;
+}
+.mat-icon {
+    display: none;
+}
+a {
+    display: flex;
+}
+a p {
+    margin-left: 7px;
+}
+.mat-sidenav-container {
+    height: 100%;
+}
+@media screen and (max-width: 1160px){
+
+    .mat-sidenav-content {
+        padding: 10px;
+        margin-left: 157px;
+    }
+    .mat-sidenav {
+        width: fit-content;
+    }
+}
+@media screen and (max-width: 930px){
+    .mat-icon {
+        display: block;
+    }
+    a p {
+        display: none;
+    }
+    .mat-sidenav:hover a p {
+        display: block;
+    }
+    .mat-sidenav-content:hover a p {
+        display: none;
+    }
+
+}

@@ -1,0 +1,10 @@
+img {
+    width: 47px;
+    display: block;
+}
+button {
+    padding: 6px 11px;
+    border: none;
+    background: var(--grayscale-lightray);
+    border-radius: 25px;
+}

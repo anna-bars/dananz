@@ -1,0 +1,198 @@
+h1 {
+    width: 56.75%;
+    color: var(--grayscale-50);
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.inform_date {
+    margin: 0 -20px 0 0;
+    transform: rotate(-90deg);
+    color: var(--grayscale-50);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    height: fit-content;
+    width: fit-content;
+    padding-top: 81px;
+} 
+.inform {
+    display: flex;
+    margin-top: 140px;
+}
+.inf-cont {
+    position: relative;
+}
+.header__container {
+    background-image: url('../../../assets/img/home/line.png'),
+    url('../../../assets/img/home/01.png');
+    background-position: top right, bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 197px;
+}
+header {
+    margin-bottom: 160px;
+}
+/* about */
+.about {
+    margin-bottom: 160px;
+}
+.about__subtitle {
+    color: var(--grayscale-50);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    margin: 20px 0 60px;
+}
+.about__text {
+    color: var(--grayscale-10);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+.about__img {
+    width: 73.5%;
+}
+.about__img img {
+    width: 100%;
+}
+.about__block{
+    width: 18.58%;
+    margin-top: 197px;
+}
+.about__author {
+    padding: 17px 52px 17px 20px;
+    display: flex;
+    position: absolute;
+    top: 27px;
+    right: 116px;
+    background-color: #fff;
+}
+.about__author__img {
+    margin-right: 20px;
+}
+.about__author__name {
+    color: var(--grayscale-black);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+}
+.about__author__position {
+    color: var(--grayscale-10, #9C9C9C);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.about__cont {
+    position: relative;
+}
+/* service */
+.service__cont {
+    width: 73.58%;
+    padding-bottom: 41px;
+    background-color: #fff;
+    padding-right: 42px;
+}
+.service__title {
+    color: var(--grayscale-50);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    margin: 20px 0 24px;
+    width: 88%;
+}
+.service__text {
+    width: 53%;
+    color: var(--grayscale-10);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    margin-bottom: 40px;
+}
+.service__container {
+    background-image: url('../../../assets/img/home/04.png');
+    background-repeat: no-repeat;
+    background-position: bottom  left 126px;
+    background-size: contain;
+    padding-bottom: 361.55px;
+    margin-bottom: 160.45px;
+}
+/* material */
+.material__title {
+    margin-bottom: 20px;
+}
+.material__block {
+    width: 41%;
+}
+.mateerial__subtitle {
+    width: 70%;
+    color: var(--grayscale-50);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+}
+.material__text {
+    width: 100%;
+    color: var(--grayscale-10);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    margin: 10px 0 23px;
+}
+.material__button {
+    border: 1px solid var(--grayscale-30);
+    background: var(--grayscale-white);
+}
+.material__button a {
+    color: var(--grayscale-50);
+}
+.material__images {
+    width: 51%;
+    display: flex;
+    justify-content: space-between;
+}
+.material__img1 {
+    width: 54%;
+}
+.img__cont {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 47px;
+    margin-top: -98px;
+}
+.material__img2 {
+    width: 100%;
+}
+.material__img3 {
+    width: 80%;
+    margin-top: 40px;
+}
+.material {
+    margin-bottom: 120px;
+}
+.material__images img:hover {
+    box-shadow: 7px 8px 14px var(--primary-blue-25);
+    border-radius: 3px;
+} 

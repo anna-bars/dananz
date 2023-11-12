@@ -1,0 +1,321 @@
+@media only screen and (max-width: 1300px){
+    .mateerial__subtitle {
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    h1 {
+        font-size: 43px;
+        width: 45.75%;
+
+    }
+    .inform {
+        margin-top: 55px;
+    }
+    .inform_item {
+        margin-bottom: 39px;
+    }
+    .about__block {
+        width: 32.58%;
+        margin-top: 118px;
+        margin-left: 15px;
+    }
+    .about__text {
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+    .about__author[_ngcontent-ng-c3718171575] {
+        top: 14px;
+    }
+    .about {
+        margin-bottom: 113px;
+    }
+    .service__cont  {
+        width: 82.58%;
+    }
+    .service__container {
+        padding-bottom: 197.55px;
+        margin-bottom: 124.45px;
+    }
+    .product__title {
+        width: 46%;
+        font-size: 30px;
+    }
+    .product__text {
+        width: 43%;
+        font-size: 16px;
+    }
+    .select__description {
+        width: 43%;
+        margin-left: 65px;
+        margin-bottom: 37px;
+    }
+    .mateerial__subtitle {
+        width: 92%;
+        font-size: 24px;
+    }
+    .material__text[_ngcontent-ng-c3718171575] {
+        font-size: 16px;
+        margin: 8px 0 13px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .header__container {
+        display: block;
+        position: relative;
+    }
+    h1 {
+        font-size: 39px;
+        width: 82%;
+        padding-top: 15px;
+        background-color: #ffffff8f;
+        padding: 15px 5px 5px;
+    }
+    .inform_block {
+        display: flex;
+        width: 83%;
+        justify-content: space-between;
+        padding: 23px;
+    }
+    .inform_number {
+        font-size: 45px;
+    }
+    .inform_item {
+        margin: 0 13px 0 0;
+    }
+    .inform {
+        position: absolute;
+        top: 102px;
+    }
+    .inform_text {
+        font-size: 14px;
+    }
+    .inform_date {
+        margin: 0 -20px 0 7px;
+        transform: rotate(-0deg)
+    }
+    .date_text  {
+        width: 113%;
+        font-size: 15px;
+    }
+    .section__title::after {
+        width: 253px;
+    }
+    .about__subtitle {
+        width: 85%;
+        font-size: 20px;
+        margin: 20px 0 40px;
+    }
+    .about__author__name {
+        font-size: 15px;
+    }
+    .about__author__position {
+        font-size: 16px;
+    }
+    .about__author__img {
+        width: 45px;
+        height: 47px;
+    }
+    .about__text {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .about__block {
+        margin-top: 107px;
+    }
+    .about {
+        margin-bottom: 60px;
+    }
+    .service__text {
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 27px;
+    }
+    .service__title {
+        font-size: 22px;
+        margin: 14px 0 16px;
+    }
+    .service__cont {
+        padding-bottom: 28px;
+        background-color: #ffffffde;
+    }
+    .service__container {
+        padding-bottom: 154.55px;
+        margin-bottom: 106.45px;
+    }
+    .service__cont {
+        padding-bottom: 3px;
+    }
+    .service__select {
+        margin-bottom: 17px;
+    }
+    .select__description {
+        width: 60%;
+        margin-bottom: 31px;
+        font-size: 14px;
+    }
+    .material .container {
+        display: block;
+    }
+    .material__block {
+        width: 85%;
+    }
+    .img__cont  {
+        width: 38%;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+    .material__img3 {
+        width: 100%;
+        margin-left: 15px;
+    }
+    .material__images {
+        margin-top: 15px;
+    }   
+}
+@media only screen and (max-width: 750px){
+    .about__cont {
+        display: block;
+    }
+    .about__block {
+        margin-top: 15px;
+        width: 80%;
+    }
+    .about__img {
+        width: 88.5%;
+    }
+    .service__container {
+        padding-bottom: 132.55px;
+        margin-bottom: 85.45px;
+    }
+    .product__cont {
+        margin-bottom: 50px;
+    }
+    .product {
+        margin-bottom: 77px;
+    }
+    .inform_number {
+        font-size: 26px;
+    }
+    .inform_block {
+        width: 65%;
+    }
+    .date_year {
+        font-size: 12px;
+        margin-bottom: -9px;
+    }
+    .date_text {
+        font-size: 12px;
+    }
+    .service__cont {
+        width: 91.58%;
+    }
+}
+@media only screen and (max-width: 600px){
+    h1 {
+        font-size: 23px;
+    }
+    .inform {
+        display: block;
+    }
+    .inform_block {
+        width: 100%;
+    }
+    .inform_date {
+        padding-top: 2px;
+    }
+    .about__subtitle {
+        width: 90%;
+        font-size: 13px;
+    }
+    .about__author {
+        padding: 10px 20px 10px 12px;
+        top: 27px;
+        right: 15px;
+    }
+    .about__author__img {
+        width: 35px;
+        height: 36px;
+        margin-right: 12px;
+    }
+    .about__author__name {
+        font-size: 13px;
+    }
+    .about__author__position {
+        font-size: 11px;
+    }
+    .service__title {
+        font-size: 16px;
+        margin: 7px 0 8px;
+    }
+    .service__text {
+        font-size: 13px;
+    }
+    .select__num {
+        font-size: 15px;
+        margin-right: 24px;
+    }
+    .select__name {
+        font-size: 15px;
+    }
+    .service__cont {
+        padding-right: 20px;
+    }
+    .service__container {
+        padding-bottom: 86.55px;
+        margin-bottom: 54.45px;
+    }
+    .product__cont {
+        margin-bottom: 35px;
+        display: block;
+    }
+    .product__title {
+        width: 80%;
+        font-size: 18px;
+    }
+    .product__text {
+        width: 82%;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .inform_number {
+        font-size: 20px;
+    }
+    .inform_text {
+        font-size: 9px;
+    }
+    .service__title {
+        font-size: 13px;
+    }
+    .service__select {
+        margin-bottom: 7px;
+    }
+    .select__description {
+        width: 60%;
+        margin-bottom: 15px;
+        font-size: 11px;
+    }
+    .mateerial__subtitle {
+        width: 96%;
+        font-size: 13px;
+    }
+    .material__text {
+        font-size: 14px;
+        margin: 8px 0 13px;
+    }
+    .news__text::before {
+        width: 9px;
+        height: 9.018px;
+    }
+    .news__text {
+        font-size: 11px;
+    }
+    .discuss__text {
+        width: 93%;
+        font-size: 18px;
+    }
+}

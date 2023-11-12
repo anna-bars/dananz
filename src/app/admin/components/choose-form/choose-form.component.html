@@ -1,0 +1,23 @@
+<form [formGroup]="form3">
+  <button mat-icon-button class="custom-button" class="close-button" (click)="close()">
+    X
+  </button>
+  <p></p>
+  <mat-form-field class="example-full-width">
+    <mat-label>Name</mat-label>
+    <input matInput placeholder="Ex. Jenny Wilson" #name   formControlName="name">
+  </mat-form-field><br>
+  <img [src]="imgSrc" alt="Author image" *ngIf="!sendingData"><br>
+  <mat-form-field>
+    <textarea matInput rows="4" cols="40"  #profession formControlName="text"
+      placeholder="Enter your text here"></textarea>
+  </mat-form-field>
+  <button mat-icon-button class="custom-button"
+    *ngIf="sendingData" type="button" (click)="saveChanges(name, profession)">
+    Save Changes
+  </button> 
+  <button mat-icon-button class="custom-button" 
+    *ngIf="!sendingData" type="button" (click)="create(name, profession)">
+    Create
+  </button>
+</form> 

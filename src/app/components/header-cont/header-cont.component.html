@@ -1,0 +1,8 @@
+<div class="container-without-flex">
+    <h1  class="header__title">{{headerData.title}}</h1>
+    <p  class="header__text" *ngIf="headerData.text">{{headerData.text}}</p>
+    <p  class="header__text header__text2">{{headerData.text2}}</p>
+    <div  class="header__img__cont">
+        <img  [src]="headerData.img" alt="image">
+    </div>
+</div>
